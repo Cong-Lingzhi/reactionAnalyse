@@ -15,16 +15,8 @@ This repository contains the code and data used for analyzing chemical reactions
 ### 1. Install Dependencies
 Ensure your system has the following dependencies installed:
 - Python 3.x
-- NumPy
-- Pandas
-- Matplotlib
 - Any other libraries that might be required.
 In addition, you will need to prepare the Graphviz tool. If you do not have it, you can find it in the package/Graphviz folder.
-
-You can install these dependencies by running:
-```bash
-pip install numpy pandas matplotlib
-```
 
 ### 2. Run the Code
 - Clone the repository to your local system:
@@ -50,7 +42,7 @@ reactionAnalyse/
 │   ├── analysis.py       # Reaction analysis module
 │   └── visualize.py      # Result visualization module
 │
-├── data.py               # data infos
+├── data.py               # Data infos
 ├── main.py               # Main program entry
 └── README.md             # Project documentation file
 
