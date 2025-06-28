@@ -34,18 +34,23 @@ python main.py
 ```
 
 ## Code Structure
+```
 reactionAnalyse/
 │
 ├── data/                 # Directory for raw data files
 │
 ├── src/                  # Source code directory
-│   ├── preprocess.py     # Data preprocessing module
-│   ├── analysis.py       # Reaction analysis module
-│   └── visualize.py      # Result visualization module
+│   ├── calChainChange.py # Calculate changes in molecular chains
+│   ├── data.py           # Call the data in the root directory
+│   ├── dataClass.py      # Define classes
+│   ├── divideFiles.py    # Split large files into single-frame files
+│   ├── dump2dataFull.py  # Data format conversion
+│   └── reactionSumup.py  # Statistical reactions
 │
 ├── data.py               # Data infos
 ├── main.py               # Main program entry
 └── README.md             # Project documentation file
+```
 
 ## Contributing
 This work is supported by the National Science Foundation of China under Grant No. 12172112, 52293372, 11932005, and 11974091, and the National Natural Science Foundation of China (Joint Fund for Corporate Innovation and Development - Key Program) Grant no. U22B2082. And we would like to thank the National Key Laboratory of Space Environment and Matter Behaviors for their support throughout the project.
